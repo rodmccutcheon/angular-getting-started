@@ -15,7 +15,7 @@ RUN mkdir /getting-started/
 RUN chmod 777 /getting-started/
 RUN chown -R root:root /getting-started//
 
-RUN git clone git@bitbucket.org:organicresponse/tellus-ui.git /tellus-ui
+RUN git clone https://github.com/rodmccutcheon/angular-getting-started.git /getting-started
 WORKDIR getting-started/
 
 #Angular CLI
